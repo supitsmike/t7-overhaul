@@ -30,6 +30,9 @@
 *.dll
 *.exe
 
+# Allow the bundled premake binary
+!tools/*.exe
+
 # OS junk
 Thumbs.db
 ehthumbs.db
