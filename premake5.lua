@@ -34,3 +34,5 @@ workspace "t7-overhaul"
     group "deps"
         include "deps/minhook.lua"
     group ""
+
+    include "src/client.lua"
