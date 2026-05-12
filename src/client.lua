@@ -13,7 +13,11 @@ project "client"
 
     includedirs {
         "client",
+        "common",
         "../deps/minhook/include",
     }
 
-    links { "minhook" }
+    links {
+        "common",
+        "minhook"
+    }
