@@ -3,6 +3,7 @@ workspace "t7-overhaul"
     platforms { "x64" }
     architecture "x86_64"
     location "build"
+    startproject "loader"
 
     cppdialect "C++20"
     staticruntime "On"
@@ -37,3 +38,4 @@ workspace "t7-overhaul"
 
     include "src/common.lua"
     include "src/client.lua"
+    include "src/loader.lua"
